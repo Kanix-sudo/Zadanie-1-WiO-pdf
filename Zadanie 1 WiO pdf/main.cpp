@@ -6,9 +6,24 @@
 //
 
 #include <iostream>
+#include <cmath>
+using namespace std;
+
+int a ;
+int b ;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    
+    cout << "Wprowadź A  " ;
+    cin >> a ;
+    cout << '\n' ;
+    cout << "Wprowadź B " ;
+    cin >> b ;
+    cout << endl ;
+    cout << (a < b) << ' ' << (a>b) << endl
+        << boolalpha << (a != b) << endl ;
+    cout << (a <= b) << ' ' << (a >= b) << endl << noboolalpha << (a == b) << endl ;
+    
+    return 0 ;
 }
+
